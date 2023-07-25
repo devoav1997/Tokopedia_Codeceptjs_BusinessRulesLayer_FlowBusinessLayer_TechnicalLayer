@@ -5,6 +5,7 @@ module.exports = {
   inputSearch: '//input[@data-unify="Search"]',
   pressEnter: 'Enter',
 
+
   search(keyword) {
     I.fillField(this.inputSearch, keyword);
     I.pressKey(this.pressEnter);

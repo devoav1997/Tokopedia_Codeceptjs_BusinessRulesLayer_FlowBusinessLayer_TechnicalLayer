@@ -9,7 +9,8 @@ exports.config = {
   },
   include: {
     I: './steps_file.js',
-    searchPage: "./pages/search_page.js"
+    searchPage: "./pages/search_page.js",
+    verificationKategoriOnSearchPage: "./pages/Verification_Kategori_On_Search_Page.js",
   },
   mocha: {},
   bootstrap: null,
